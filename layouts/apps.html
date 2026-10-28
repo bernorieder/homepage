@@ -20,16 +20,15 @@
       </div>
     </header>
     <p>{{ .description }}</p>
+    {{- /* Light and dark screenshots side by side; each opens a larger version. */}}
     {{- with .screenshot }}
-    {{- $light := (resources.Get .).Resize "1400x webp q80" }}
-    <a class="app-shot" href="{{ $app.url }}">
-      <picture>
-        {{- with $app.screenshotDark }}{{ $dark := (resources.Get .).Resize "1400x webp q80" }}
-        <source srcset="{{ $dark.RelPermalink }}" media="(prefers-color-scheme: dark)">
-        {{- end }}
-        <img src="{{ $light.RelPermalink }}" width="{{ $light.Width }}" height="{{ $light.Height }}" alt="{{ $app.name }} screenshot" loading="lazy">
-      </picture>
-    </a>
+    <div class="app-shots">
+      {{- range slice (dict "mode" "light" "file" $app.screenshot) (dict "mode" "dark" "file" $app.screenshotDark) }}{{ with .file }}
+      {{- $img := resources.Get . }}{{ $small := $img.Resize "800x webp q80" }}{{ $large := $img.Resize "2000x webp q85" }}
+      <a href="{{ $large.RelPermalink }}"><img src="{{ $small.RelPermalink }}" width="{{ $small.Width }}" height="{{ $small.Height }}" alt="{{ $app.name }} screenshot" loading="lazy"></a>
+      {{- end }}{{ end }}
+    </div>
+    <p class="small">Click to enlarge.</p>
     {{- end }}
     <p class="links">
       <a href="{{ .url }}">Website</a>

@@ -11,7 +11,7 @@
         Modules for extracting data from YouTube via the YouTube API v3: channel and video lists,
         video comments, channel networks, and co-commenting networks. Developed and supported as part
         of the CAT4SMR project.
-      launch: https://tools.digitalmethods.net/netvizz/youtube/
+      launch: https://ytdt.digitalmethods.net/
       source: https://github.com/bernorieder/YouTube-Data-Tools
       video: https://www.youtube.com/watch?v=sbErTW2MzCY
     - name: DMI-TCAT

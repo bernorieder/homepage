@@ -13,7 +13,6 @@ disableKinds = ["taxonomy", "term", "RSS", "section"]
   affiliation = "University of Amsterdam"
   affiliationURL = "https://www.uva.nl/en/profile/r/i/b.rieder/b.rieder.html"
   email = "B.Rieder@uva.nl"
-  toolsEmail = "tools@polsys.net"
   blogURL = "https://thepoliticsofsystems.net/"
   blogFeed = "https://thepoliticsofsystems.net/feed/"
   officeHours = "https://www.uva.nl/en/profile/r/i/b.rieder/b.rieder.html"

@@ -207,8 +207,10 @@ ul.archive { list-style: none; padding: 0; margin: 0; }
 .app-entry h2 { margin: 0; font-size: 18px; }
 .app-entry h2 a { color: var(--app-accent); text-decoration: none; }
 .app-tagline { margin: 0; color: var(--muted); }
-.app-shot { display: block; margin: 16px 0 10px; }
-.app-shot img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 6px; }
+.app-shots { display: flex; gap: 12px; margin: 16px 0 4px; }
+.app-shots a { flex: 1; display: block; cursor: zoom-in; }
+.app-shots img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 6px; }
+.app-shots + .small { margin: 0 0 10px; }
 
 /* footer */
 
@@ -235,5 +237,6 @@ ul.archive { list-style: none; padding: 0; margin: 0; }
   .site-header { padding: 0 20px; grid-template-areas: "brand" "nav"; align-content: center; row-gap: 2px; }
   .site-header .brand { grid-area: brand; }
   .site-header nav { grid-area: nav; justify-self: start; gap: 16px; }
+  .app-shots { flex-direction: column; }
   .layout { padding: 28px 20px 40px; }
 }

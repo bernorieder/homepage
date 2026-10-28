@@ -210,6 +210,7 @@ ul.archive { list-style: none; padding: 0; margin: 0; }
 .app-shots a { flex: 1; display: block; cursor: zoom-in; }
 .app-shots img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 6px; }
 .app-shots + .small { margin: 0 0 10px; }
+.app-notice { background: var(--box); border-radius: 6px; padding: 10px 14px; margin: 12px 0; font-size: 13.5px; }
 
 /* footer */
 

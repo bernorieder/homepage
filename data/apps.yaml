@@ -1,6 +1,7 @@
 # Mac apps, listed on /apps. Each has its own site on a polsys.net subdomain (GitHub Pages from the repo's docs/).
 # hidden: true keeps an app off the site (e.g. while it is in review).
-# screenshot / screenshotDark: images in assets/; the dark one is shown in dark mode.
+# screenshot / screenshotDark: images in assets/, shown side by side.
+# notice: optional short note shown in a box, e.g. about installation.
 
 - name: luftig
   icon: apps/luftig.png
@@ -16,7 +17,6 @@
   source: https://github.com/bernorieder/luftig
 
 - name: machen
-  hidden: true
   icon: apps/machen.png
   accent: "#d7261e"
   tagline: Google Calendar and Google Tasks in the Mac menu bar.
@@ -28,3 +28,6 @@
   url: https://machen.polsys.net
   download: https://github.com/bernorieder/machen/releases/latest
   source: https://github.com/bernorieder/machen
+  notice: >-
+    Google is still reviewing machen. Until it is approved, signing in shows a warning that Google
+    hasn't verified the app: click Advanced, then Go to machen, to continue.

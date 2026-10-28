@@ -20,6 +20,9 @@
       </div>
     </header>
     <p>{{ .description }}</p>
+    {{- with .notice }}
+    <p class="app-notice">{{ . }}</p>
+    {{- end }}
     {{- /* Light and dark screenshots side by side; each opens a larger version. */}}
     {{- with .screenshot }}
     <div class="app-shots">

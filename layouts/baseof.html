@@ -8,7 +8,7 @@
   <link rel="canonical" href="{{ .Permalink }}">
   <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
   <link rel="alternate" type="application/rss+xml" title="The Politics of Systems" href="{{ site.Params.blogFeed }}">
-  <link rel="preload" href="{{ "fonts/inter-latin-wght-normal.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ "fonts/ibm-plex-sans-latin-wght-normal.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
   {{- $css := resources.Get "css/main.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 </head>

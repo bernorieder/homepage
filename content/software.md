@@ -10,6 +10,6 @@ Development and maintenance of some of these tools are funded by the Dutch [Plat
 
 <div class="note">
 
-**Support.** Most tools have basic descriptions or FAQ sections, and there are instruction videos on my [YouTube channel](https://www.youtube.com/@BernhardRiederAmsterdam). Tools covered by CAT4SMR are supported through a [subreddit](https://www.reddit.com/r/CAT4SMR/) and a [Facebook group](https://www.facebook.com/groups/678943026381479); everything else is provided as is. High-quality bug reports are much appreciated: if you have never written one, please read [this piece](https://www.chiark.greenend.org.uk/~sgtatham/bugs.html), preferably twice, and file them on [GitHub](https://github.com/bernorieder/).
+**Support.** Most tools have basic descriptions or FAQ sections, and there are instruction videos on my [YouTube channel](https://www.youtube.com/@BernhardRiederAmsterdam). Questions, feature requests, and high-quality bug reports are much appreciated, but only if filed via [GitHub](https://github.com/bernorieder/). Please do not use email or social media. If you have never written a bug report, please read [this piece](https://www.chiark.greenend.org.uk/~sgtatham/bugs.html), before submitting.
 
 </div>

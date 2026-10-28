@@ -202,7 +202,7 @@ ul.archive { list-style: none; padding: 0; margin: 0; }
 /* apps */
 
 .app-entry header { display: flex; gap: 14px; align-items: center; margin-bottom: 10px; }
-.app-entry header img { flex: none; width: 48px; height: 48px; }
+.app-entry header img { flex: none; width: 64px; height: 64px; }
 .app-entry h2 { margin: 0; font-size: 18px; }
 .app-entry h2 a { color: var(--app-accent); text-decoration: none; }
 .app-tagline { margin: 0; color: var(--muted); }

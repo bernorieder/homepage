@@ -1,4 +1,0 @@
-# polsys.net (and www): send the front page to the home page; every other path stays as it is.
-# Put these lines at the top of the .htaccess in the polsys.net web directory on DreamHost.
-RewriteEngine On
-RewriteRule ^(index\.html?)?$ https://rieder.polsys.net/ [R=301,L]

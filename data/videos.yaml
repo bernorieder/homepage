@@ -1,0 +1,63 @@
+# Videos from youtube.com/@BernhardRiederAmsterdam, newest first.
+# kind: lecture (shown on /research) | tutorial (shown on /software)
+
+- id: 8RbTjoxq6Ho
+  kind: tutorial
+  year: 2023
+  title: "YouTube Data Tools - Video Comments Module (Nov 2023)"
+- id: yiWcLJTu8cc
+  kind: tutorial
+  year: 2023
+  title: "YouTube Data Tools - Co-commenting Network Module (Nov 2023)"
+- id: ewCtzyNjELM
+  kind: tutorial
+  year: 2023
+  title: "YouTube Data Tools - Video List Module (Nov 2023)"
+- id: PrbvZzP4IAY
+  kind: tutorial
+  year: 2023
+  title: "YouTube Data Tools - Channel Network Module (Nov 2023)"
+- id: jdJ5S8NyyS4
+  kind: tutorial
+  year: 2023
+  title: "YouTube Data Tools - Channel List Module (Nov 2023)"
+- id: dhrLGV_RBDo
+  kind: tutorial
+  year: 2023
+  title: "YouTube Data Tools - Channel Info Module (Nov 2023)"
+- id: EnTy_pbkCfM
+  kind: tutorial
+  year: 2023
+  title: "YouTube Data Tools - Overview (Nov 2023)"
+- id: TmF4mWZYnbk
+  kind: tutorial
+  year: 2023
+  title: "YouTube Data Tools - Overview (May 2023)"
+- id: egK0mnbDlFA
+  kind: lecture
+  year: 2021
+  title: "Making Tools for Social Media Research: Principles and (Future) Challenges"
+- id: OWnoN4wq_no
+  kind: lecture
+  year: 2020
+  title: "Probing a Platformed Media System"
+- id: NPV1cCIlYIE
+  kind: lecture
+  year: 2020
+  title: "From Algorithms to Diagrams: How to Study Platforms?"
+- id: TnOm7gkiEuw
+  kind: lecture
+  year: 2019
+  title: "Five Things to Know Before Starting with Digital Methods"
+- id: 7lpvQW360js
+  kind: tutorial
+  year: 2018
+  title: "(Basic) Text Analysis with WORDij"
+- id: mLOSLYNWmBA
+  kind: tutorial
+  year: 2016
+  title: "Facebook Page Like Networks with Netvizz and Gephi"
+- id: ngqWjgZudeE
+  kind: tutorial
+  year: 2015
+  title: "Combine and Analyze Co-Hashtag Networks (Instagram, Twitter, etc.) with Gephi"

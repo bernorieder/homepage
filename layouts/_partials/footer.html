@@ -1,0 +1,13 @@
+<footer class="site-footer">
+  <p>
+    <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a> ·
+    Media Studies, University of Amsterdam, Turfdraagsterpad 1, Amsterdam
+  </p>
+  <p>
+    Software inquiries and bug reports: <a href="mailto:{{ site.Params.toolsEmail }}">{{ site.Params.toolsEmail }}</a>
+  </p>
+  <p>
+    <a href="{{ site.Params.blogURL }}">Blog</a>
+    {{- range site.Params.links }} · <a href="{{ .url }}">{{ .name }}</a>{{ end }}
+  </p>
+</footer>

@@ -1,0 +1,22 @@
+{{- /* A list of YouTube videos. Context: dict with "kind" (lecture|tutorial), optional "limit" and
+       "playlist" (a playlist ID whose feed replaces the data file). */ -}}
+{{- $videos := slice }}
+{{- with .playlist }}
+  {{- with try (resources.GetRemote (printf "https://www.youtube.com/feeds/videos.xml?playlist_id=%s" .)) }}
+    {{- with .Err }}{{ warnf "Playlist feed unavailable: %s" . }}
+    {{- else with .Value }}
+      {{- $feed := . | transform.Unmarshal }}
+      {{- range $feed.entry }}
+        {{- $videos = $videos | append (dict "id" .videoId "title" .title "date" .published "year" (time.Format "2006" .published)) }}
+      {{- end }}
+      {{- $videos = sort $videos "date" "desc" }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- if not $videos }}{{ $videos = where hugo.Data.videos "kind" .kind }}{{ end }}
+{{- with .limit }}{{ $videos = first . $videos }}{{ end }}
+<ul class="list">
+  {{- range $videos }}
+  <li><a href="https://www.youtube.com/watch?v={{ .id }}">{{ .title }}</a> <span class="year">{{ .year }}</span></li>
+  {{- end }}
+</ul>

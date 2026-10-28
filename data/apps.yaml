@@ -1,0 +1,30 @@
+# Mac apps, listed on /apps. Each has its own site on a polsys.net subdomain (GitHub Pages from the repo's docs/).
+# hidden: true keeps an app off the site (e.g. while it is in review).
+# screenshot / screenshotDark: images in assets/; the dark one is shown in dark mode.
+
+- name: luftig
+  icon: apps/luftig.png
+  accent: "#3a44c0"
+  tagline: A small, fast Markdown editor for the Mac.
+  description: >-
+    A native app for writing and thinking in plain text, alone or with an AI that edits the same file.
+    One text view, no preview: the Markdown source is what you edit, styled in place.
+  screenshot: apps/luftig-light.png
+  screenshotDark: apps/luftig-dark.png
+  url: https://luftig.polsys.net
+  download: https://github.com/bernorieder/luftig/releases/latest
+  source: https://github.com/bernorieder/luftig
+
+- name: machen
+  hidden: true
+  icon: apps/machen.png
+  accent: "#d7261e"
+  tagline: Google Calendar and Google Tasks in the Mac menu bar.
+  description: >-
+    Shows your upcoming events and open tasks from one or more Google accounts in one list,
+    and lets you add and change them without opening a browser.
+  screenshot: apps/machen-light.png
+  screenshotDark: apps/machen-dark.png
+  url: https://machen.polsys.net
+  download: https://github.com/bernorieder/machen/releases/latest
+  source: https://github.com/bernorieder/machen

@@ -1,0 +1,65 @@
+{{ define "toc" }}
+  <li><a href="#about">About</a></li>
+  <li><a href="#publications">Publications</a></li>
+  <li><a href="#talks">Talks</a></li>
+{{ end }}
+
+{{ define "main" }}
+<article class="page">
+  <section id="about">
+    <h1>{{ .Title }}</h1>
+    <div class="prose">{{ .Content }}</div>
+    {{ partial "book.html" . }}
+  </section>
+
+  <section id="publications">
+    <h2>Publications</h2>
+    {{- $types := slice "article" "book" "chapter" "proceedings" "report" "preprint" "thesis" "other" }}
+    {{- $labels := dict "article" "Articles" "book" "Books" "chapter" "Chapters" "proceedings" "Proceedings" "report" "Reports" "preprint" "Preprints" "thesis" "Thesis" "other" "Other" }}
+    <div class="filters" role="group" aria-label="Filter by type" hidden>
+      <button type="button" data-filter="all" aria-pressed="true">All <span>{{ len hugo.Data.publications }}</span></button>
+      {{- range $types }}{{ with where hugo.Data.publications "type" . }}
+      <button type="button" data-filter="{{ (index . 0).type }}" aria-pressed="false">{{ index $labels (index . 0).type }} <span>{{ len . }}</span></button>
+      {{- end }}{{ end }}
+    </div>
+    {{- range (sort (uniq (apply hugo.Data.publications "index" "." "year")) "value" "desc") }}
+    <div class="year-group">
+      <h3 class="year">{{ . }}</h3>
+      <ol class="pubs">
+        {{- range where hugo.Data.publications "year" . }}
+        {{ partial "pub.html" . }}
+        {{- end }}
+      </ol>
+    </div>
+    {{- end }}
+  </section>
+
+  <section id="talks">
+    <h2>Talks and lectures</h2>
+    {{ partial "videos.html" (dict "kind" "lecture" "playlist" site.Params.talksPlaylist) }}
+    <p class="more"><a href="{{ site.Params.youtubeURL }}">More on YouTube</a></p>
+  </section>
+</article>
+<script>
+  (function () {
+    var box = document.querySelector('.filters');
+    if (!box) return;
+    box.hidden = false;
+    box.addEventListener('click', function (e) {
+      var btn = e.target.closest('button');
+      if (!btn) return;
+      var f = btn.dataset.filter;
+      box.querySelectorAll('button').forEach(function (b) { b.setAttribute('aria-pressed', b === btn); });
+      document.querySelectorAll('.year-group').forEach(function (g) {
+        var shown = 0;
+        g.querySelectorAll('.pub').forEach(function (p) {
+          var on = f === 'all' || p.dataset.type === f;
+          p.hidden = !on;
+          if (on) shown++;
+        });
+        g.hidden = shown === 0;
+      });
+    });
+  })();
+</script>
+{{ end }}

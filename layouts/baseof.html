@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="{{ site.Language.Locale }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+  <link rel="alternate" type="application/rss+xml" title="The Politics of Systems" href="{{ site.Params.blogFeed }}">
+  <link rel="preload" href="{{ "fonts/inter-latin-wght-normal.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+  {{- $css := resources.Get "css/main.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="{{ site.Home.RelPermalink }}">Bernhard Rieder</a>
+    <nav aria-label="Main">
+      {{- range site.Menus.main }}
+        {{- if .PageRef }}
+      <a href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a>
+        {{- else }}
+      <a href="{{ .URL }}">{{ .Name }} <span class="ext" aria-hidden="true">↗</span></a>
+        {{- end }}
+      {{- end }}
+    </nav>
+  </header>
+  <div class="layout">
+    {{- /* Links to the page's main sections, floating to the left of the text. Each layout
+           defines them in a "toc" block (blocks only work in this template, not in partials).
+           The home page has none. */}}
+    {{- if not .IsHome }}
+    <nav class="toc" aria-label="On this page">
+      <ul>{{ block "toc" . }}{{ end }}</ul>
+    </nav>
+    {{- end }}
+    <main id="main">
+      {{ block "main" . }}{{ end }}
+      {{ partial "footer.html" . }}
+    </main>
+  </div>
+  <script>
+    // Marks the section link of whatever is at the top of the text; at the bottom of the page, the
+    // last one (short final sections never reach the top). Without JS the links simply work as anchors.
+    (function () {
+      var links = [].slice.call(document.querySelectorAll('.toc a'));
+      var sections = links.map(function (a) { return document.getElementById(a.hash.slice(1)); });
+      if (!links.length) return;
+      function mark(i) {
+        links.forEach(function (a, j) {
+          if (j === i) a.setAttribute('aria-current', 'location'); else a.removeAttribute('aria-current');
+        });
+      }
+      function update() {
+        var top = document.querySelector('.site-header').offsetHeight + 60, current = 0;
+        sections.forEach(function (s, i) { if (s && s.getBoundingClientRect().top <= top) current = i; });
+        if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2) current = links.length - 1;
+        mark(current);
+      }
+      links.forEach(function (a, i) { a.addEventListener('click', function () { setTimeout(function () { mark(i); }, 50); }); });
+      window.addEventListener('scroll', update, { passive: true });
+      update();
+    })();
+  </script>
+</body>
+</html>

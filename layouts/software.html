@@ -1,0 +1,48 @@
+{{ define "toc" }}
+  <li><a href="#tools">Current tools</a></li>
+  <li><a href="#tutorials">Tutorials</a></li>
+  <li><a href="#archive">Archive</a></li>
+{{ end }}
+
+{{ define "main" }}
+<article class="page">
+  <h1>{{ .Title }}</h1>
+  <div class="prose">{{ .Content }}</div>
+
+  <section id="tools">
+    <h2>Current tools</h2>
+    {{- range hugo.Data.tools }}{{ range where .tools "current" true }}
+    {{ partial "tool.html" . }}
+    {{- end }}{{ end }}
+  </section>
+
+  <section id="tutorials">
+    <h2>Tutorials</h2>
+    {{ partial "videos.html" (dict "kind" "tutorial") }}
+  </section>
+
+
+  <section id="archive">
+    <h2>Archive</h2>
+    <p>Older tools and scripts. They are no longer maintained, and several stopped working when platforms closed their APIs. The source code stays available for reference.</p>
+    {{- range $g := hugo.Data.tools }}
+      {{- with where .tools "current" "!=" true }}
+    <h3 class="label">{{ $g.group }}</h3>
+    <ul class="archive">
+        {{- range . }}
+      <li id="{{ .name | urlize }}">
+        <span class="archive-name">{{ .name }}</span>{{ if eq .status "archived" }} <span class="status">no longer works</span>{{ end }}
+        <span class="archive-desc">{{ .description }}</span>
+        <span class="links">
+          {{- with .launch }}<a href="{{ . }}">Launch</a>{{ end }}
+          {{- with .source }}<a href="{{ . }}">Source</a>{{ end }}
+          {{- with .video }}<a href="{{ . }}">Video</a>{{ end }}
+        </span>
+      </li>
+        {{- end }}
+    </ul>
+      {{- end }}
+    {{- end }}
+  </section>
+</article>
+{{ end }}

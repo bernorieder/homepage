@@ -1,0 +1,57 @@
+baseURL = "https://polsys.net/"
+locale = "en"
+title = "Bernhard Rieder"
+disableKinds = ["taxonomy", "term", "RSS", "section"]
+
+# Blog feed, talks playlist and video thumbnails are fetched at build time; refetch after an hour.
+[caches.getresource]
+  maxAge = "1h"
+
+[params]
+  description = "Bernhard Rieder – Associate Professor of New Media and Digital Culture at the University of Amsterdam. Research on the history, theory, and politics of software, and research software for studying online platforms."
+  role = "Associate Professor of New Media and Digital Culture"
+  affiliation = "University of Amsterdam"
+  affiliationURL = "https://www.uva.nl/en/profile/r/i/b.rieder/b.rieder.html"
+  email = "B.Rieder@uva.nl"
+  toolsEmail = "tools@polsys.net"
+  blogURL = "https://thepoliticsofsystems.net/"
+  blogFeed = "https://thepoliticsofsystems.net/feed/"
+  officeHours = "https://www.uva.nl/en/profile/r/i/b.rieder/b.rieder.html"
+  youtubeURL = "https://www.youtube.com/@BernhardRiederAmsterdam"
+  # ID of a YouTube playlist with talks and lectures (the part after list= in its URL).
+  # When set, /research lists that playlist; otherwise the "lecture" entries in data/videos.yaml.
+  talksPlaylist = "PLVTuM_sR1CedBEEkJ_Am4zEQHPsXQf-Ux"
+
+  [[params.links]]
+    name = "GitHub"
+    url = "https://github.com/bernorieder/"
+  [[params.links]]
+    name = "YouTube"
+    url = "https://www.youtube.com/@BernhardRiederAmsterdam"
+  [[params.links]]
+    name = "Digital Methods Initiative"
+    url = "https://www.digitalmethods.net/"
+  [[params.links]]
+    name = "UvA profile"
+    url = "https://www.uva.nl/en/profile/r/i/b.rieder/b.rieder.html"
+
+[menus]
+  [[menus.main]]
+    name = "Research"
+    pageRef = "/research"
+    weight = 10
+  [[menus.main]]
+    name = "Software"
+    pageRef = "/software"
+    weight = 20
+  [[menus.main]]
+    name = "Apps"
+    pageRef = "/apps"
+    weight = 25
+  [[menus.main]]
+    name = "Blog"
+    url = "https://thepoliticsofsystems.net/"
+    weight = 30
+
+[markup.goldmark.renderer]
+  unsafe = true

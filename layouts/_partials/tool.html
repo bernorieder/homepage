@@ -1,0 +1,10 @@
+{{- /* A current research tool, shown as a full entry. */ -}}
+<article class="tool" id="{{ .name | urlize }}">
+  <h3>{{ .name }}</h3>
+  <p>{{ .description }}</p>
+  <p class="links">
+    {{- with .launch }}<a href="{{ . }}">Launch tool</a>{{ end }}
+    {{- with .source }}<a href="{{ . }}">Source code</a>{{ end }}
+    {{- with .video }}<a href="{{ . }}">Intro video</a>{{ end }}
+  </p>
+</article>

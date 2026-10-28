@@ -1,0 +1,10 @@
+{{- $types := dict "book" "Book" "article" "Article" "chapter" "Chapter" "proceedings" "Proceedings" "report" "Report" "preprint" "Preprint" "thesis" "Thesis" "other" "Other" }}
+{{- $link := .url | default .pdf }}
+<li class="pub" data-type="{{ .type }}">
+  {{ with $link }}<a class="pub-title" href="{{ . }}">{{ $.title }}</a>{{ else }}<span class="pub-title">{{ .title }}</span>{{ end }}
+  <span class="pub-byline">{{ .authors }} ({{ .year }}). {{ .venue }}.</span>
+  <span class="pub-meta">
+    <span>{{ index $types .type }}</span>
+    {{- if and .url .pdf }}<a href="{{ .pdf }}">Open access</a>{{ end }}
+  </span>
+</li>

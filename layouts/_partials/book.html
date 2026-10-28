@@ -1,0 +1,7 @@
+{{- $book := index (where hugo.Data.publications "type" "book") 0 }}
+<aside class="book">
+  <p class="label">Book, {{ $book.year }}</p>
+  <h3><a href="{{ $book.url }}"><cite>{{ $book.title }}</cite></a></h3>
+  <p>A long-term investigation into the historical and conceptual foundations of information processing techniques. {{ $book.venue }}.</p>
+  <p class="links"><a href="{{ $book.pdf }}">Read it open access</a><a href="{{ $book.url }}">Publisher’s page</a></p>
+</aside>

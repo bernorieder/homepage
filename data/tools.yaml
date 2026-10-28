@@ -1,0 +1,100 @@
+# Research software. Each group renders as a section on /software.
+# current: true lists the tool under "Research software" (and on the home page);
+# everything else goes to the archive at the bottom of /software.
+# status (archive only): legacy (still online or runnable, unmaintained) | archived (no longer works)
+
+- group: Data extraction
+  tools:
+    - name: YouTube Data Tools
+      current: true
+      description: >-
+        Modules for extracting data from YouTube via the YouTube API v3: channel and video lists,
+        video comments, channel networks, and co-commenting networks. Developed and supported as part
+        of the CAT4SMR project.
+      launch: https://tools.digitalmethods.net/netvizz/youtube/
+      source: https://github.com/bernorieder/YouTube-Data-Tools
+      video: https://www.youtube.com/watch?v=sbErTW2MzCY
+    - name: DMI-TCAT
+      status: archived
+      description: >-
+        The Digital Methods Initiative Twitter Capture and Analysis Toolset – developed with Erik Borra
+        and Emile den Tex – retrieves and collects tweets and provides modules to analyze tweet collections.
+        Requires server installation.
+      source: https://github.com/digitalmethodsinitiative/dmi-tcat
+    - name: Netvizz
+      status: archived
+      description: >-
+        Extracted data from Facebook groups and pages for research purposes from 2010 onward.
+        Facebook removed page data access on 4 September 2019 and Netvizz is no longer functional.
+      video: https://www.youtube.com/watch?v=3vkKPcN7V7Q
+    - name: TumblrTool
+      status: legacy
+      description: Gets posts tagged with a specific term and creates tabular statistics and co-tag networks.
+      launch: https://labs.polsys.net/tools/tumblr/
+      source: https://github.com/bernorieder/TumblrTool
+    - name: Visual Tagnet Explorer
+      status: archived
+      description: >-
+        Got media from Instagram tagged with a term or posted around a location and created statistics
+        and co-tag networks. No longer works since Instagram changed its API rules.
+      source: https://github.com/bernorieder/Instagram-Hashtag-Explorer
+      video: https://www.youtube.com/watch?v=o07aUKdRv0g
+
+- group: Analysis
+  tools:
+    - name: RankFlow
+      status: legacy
+      description: A visualization tool for analyzing changes in ordered lists (e.g. rankings) over time.
+      launch: https://labs.polsys.net/tools/rankflow/
+      source: https://github.com/bernorieder/RankFlow
+    - name: LineMiner
+      status: legacy
+      description: >-
+        Analyzes textual data stored in timestamped lines of text, with fast text search and some
+        statistical and visual text analysis. Work in progress. Requires server installation.
+      source: https://github.com/bernorieder/lineminer
+    - name: SimilarityNet
+      status: legacy
+      description: Calculates cosine similarity between lists of quantified variables (feature vectors) and outputs a similarity network.
+      launch: https://labs.polsys.net/tools/similaritynet/
+      source: https://github.com/bernorieder/SimilarityNet
+    - name: Tag Cloud HTML Generator
+      status: legacy
+      description: Turns tags and values in Wordle format into an HTML tag cloud or tag list.
+      launch: https://labs.polsys.net/tools/tagcloud/
+    - name: Textanalysis
+      status: legacy
+      description: A small text analysis tool for emoji statistics and bigram/collocation extraction.
+      launch: https://labs.polsys.net/tools/textanalysis/
+
+- group: Scripts
+  tools:
+    - name: MemeSpector
+      status: legacy
+      description: >-
+        A PHP script for Google's Vision API: takes a CSV/TSV with image URLs, sends the images to the
+        API and writes the detected annotations back into the file.
+      source: https://github.com/bernorieder/memespector
+    - name: PiperScraper
+      status: legacy
+      description: PHP scripts to scrape and analyze Pipermail list archives.
+      source: https://github.com/bernorieder/piperscraper
+    - name: Reddit Tools
+      status: legacy
+      description: PHP command line scripts that grab data from Reddit and turn it into CSV files.
+      source: https://github.com/bernorieder/reddit-tools
+    - name: Textprocessing
+      status: legacy
+      description: Basic Python scripts that connect common data formats with more complex forms of text processing.
+      source: https://github.com/bernorieder/textprocessing
+    - name: YouTube Transcript Scraper
+      status: legacy
+      description: Uses browser automation to click through the YouTube interface and download transcripts. A basic example for starting with Selenium.
+      source: https://github.com/bernorieder/youtube-transcript-scraper
+
+- group: Fun stuff
+  tools:
+    - name: Spotify Artist Network
+      status: legacy
+      description: Creates networks of related artists, based on data from Spotify.
+      launch: https://labs.polsys.net/playground/spotify/

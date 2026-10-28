@@ -1,0 +1,503 @@
+# Publications, newest first within each year (order is preserved).
+# Seeded from the UvA Pure list (Oct 2026) plus older items from thepoliticsofsystems.net/papers-and-talks.
+# type: book | article | chapter | proceedings | report | preprint | thesis | other
+# Completed from Google Scholar (Oct 2026): papers and substantial items only; software, blog posts,
+# talks, student project reports and duplicates left out.
+# url: main link (DOI preferred); pdf: optional open-access copy
+
+- year: 2026
+  type: article
+  authors: "Rieder, B., August, B., & Latil, B."
+  title: "The Tate-space on YouTube: Ambient ideology and the limits of platform moderation"
+  venue: "New Media & Society. Advance online publication"
+  url: "https://doi.org/10.1177/14614448251409209"
+- year: 2026
+  type: article
+  authors: "Rieder, B., Padilla, A., & Coromina, Ò."
+  title: "Forgetful by design? A critical audit of YouTube’s search API for academic research"
+  venue: "Information, Communication & Society, 29(10), 3056–3075"
+  url: "https://doi.org/10.1080/1369118X.2025.2591767"
+  pdf: "https://doi.org/10.48550/arXiv.2506.11727"
+- year: 2026
+  type: preprint
+  authors: "Rieder, B., Padilla, A., Matamoros-Fernández, A., & Coromina, Ò."
+  title: "Larger, younger, faster, harder: Expansion, transformation, and inequality in YouTube’s creator economy (2019–2026)"
+  venue: "SocArXiv preprint"
+  url: "https://doi.org/10.31235/osf.io/4t8fm_v1"
+- year: 2026
+  type: chapter
+  authors: "Jurg, D., Romano, S., & Rieder, B."
+  title: "Ranking authority: A critical audit of YouTube’s content moderation"
+  venue: "In Content Moderation across Social Media Platforms (pp. 71–96). Routledge, open access"
+  url: "https://doi.org/10.4324/9781003693192-3"
+- year: 2026
+  type: chapter
+  authors: "Borra, E., Peeters, S., Rieder, B., & Trans, M."
+  title: "Social Media Data Access in the Post-API Age"
+  venue: "In The Routledge Companion to Social Media and Politics (pp. 243–259). Routledge"
+  url: "https://doi.org/10.4324/9781003359524-18"
+- year: 2026
+  type: chapter
+  authors: "Jacomy, M., Rieder, B., Borra, E., Plique, G., Enevoldsen, K. C., & van Eck, N. J."
+  title: "Toolmaking is science by other means; Meet the DCSSH toolmakers; Why do DCSSH toolmakers make tools?; The lifecycle of DC tools for SSH; Valuing toolmaking in academia; In defense of the researcher-toolmaker figure"
+  venue: "Six chapters in A. K. Madsen & A. K. Munk (Eds.), Handbook of Digital and Computational Research Methods (pp. 294–351). Edward Elgar"
+  url: "https://doi.org/10.4337/9781802208993"
+- year: 2025
+  type: article
+  authors: "Zavala Barreda, K., & Rieder, B."
+  title: "Homesteading the “Wild West” of educational apps: Ranking cultures and the struggle for algorithmic visibility on Apple’s App Store"
+  venue: "First Monday, 30(5)"
+  url: "https://doi.org/10.5210/fm.v30i5.13632"
+- year: 2025
+  type: article
+  authors: "de Keulenaar, E., Poell, T., Helmond, A., Rieder, B., & van Gorp, J."
+  title: "Computational Cross-Media Research: Tracing divergences between normative Dutch television and social media discourses on the ‘refugee crisis’ (2013–2018)"
+  venue: "Convergence, 31(5), 1606–1628"
+  url: "https://doi.org/10.1177/13548565241258956"
+- year: 2025
+  type: preprint
+  authors: "Rieder, B."
+  title: "What is digital about abstraction?"
+  venue: "arXiv preprint arXiv:2508.18181"
+  url: "https://arxiv.org/abs/2508.18181"
+
+- year: 2024
+  type: article
+  authors: "Burkhardt, S., & Rieder, B."
+  title: "Foundation models are platform models: Prompting and the political economy of AI"
+  venue: "Big Data & Society, 11(2)"
+  url: "https://doi.org/10.1177/20539517241247839"
+- year: 2024
+  type: article
+  authors: "Rieder, B., Peeters, S., & Borra, E."
+  title: "From tool to tool-making: Reflections on authorship in social media research software"
+  venue: "Convergence, 30(1), 216–235"
+  url: "https://doi.org/10.1177/13548565221127094"
+- year: 2024
+  type: proceedings
+  authors: "van der Vlist, F., Helmond, A., Luitse, D. M. R., Rieder, B., Hind, S., & Kanderske, M."
+  title: "The Political Economy of AI as Platform: Infrastructures, Power, and the AI Industry"
+  venue: "AoIR2024: Selected Papers of Internet Research"
+  url: "https://doi.org/10.5210/spir.v2024i0.14088"
+- year: 2024
+  type: report
+  authors: "Jurg, D., Romano, S., Buse Çetin, R., & Rieder, B."
+  title: "YouTube's Safety Features: Lost In Translation"
+  venue: "AI Forensics"
+  url: "https://aiforensics.org/uploads/Youtube_moderation_report.pdf"
+
+- year: 2023
+  type: article
+  authors: "Jokubauskaitė, E., Rieder, B., & Burkhardt, S."
+  title: "Winner-Take-All? Visibility, Availability, and Heterogeneity on Webcam Sex Platforms"
+  venue: "Social Media + Society, 9(4)"
+  url: "https://doi.org/10.1177/20563051231214807"
+- year: 2023
+  type: article
+  authors: "Rieder, B., Borra, E., Coromina, Ò., & Matamoros-Fernández, A."
+  title: "Making a Living in the Creator Economy: A Large-Scale Study of Linking on YouTube"
+  venue: "Social Media + Society, 9(2)"
+  url: "https://doi.org/10.1177/20563051231180628"
+
+- year: 2022
+  type: article
+  authors: "Gordon, G., Rieder, B., & Sileno, G."
+  title: "On mapping values in AI Governance"
+  venue: "Computer Law & Security Review, 46, 105712"
+  url: "https://doi.org/10.1016/j.clsr.2022.105712"
+- year: 2022
+  type: article
+  authors: "Rieder, B."
+  title: "Towards a political economy of technical systems: The case of Google"
+  venue: "Big Data & Society, 9(2)"
+  url: "https://doi.org/10.1177/20539517221135162"
+- year: 2022
+  type: article
+  authors: "Rieder, B., Gordon, G., & Sileno, G."
+  title: "Mapping Value(s) in AI: Methodological Directions for Examining Normativity in Complex Technical Systems"
+  venue: "Sociologica, 16(3), 51–83"
+  url: "https://doi.org/10.6092/issn.1971-8853/15910"
+- year: 2022
+  type: other
+  authors: "Stevenson, M., & Helmond, A."
+  title: "The historical trajectories of algorithmic techniques: An interview with Bernhard Rieder"
+  venue: "In Oral Histories of the Internet and the Web (pp. 179–188). Routledge"
+  url: "https://doi.org/10.4324/9781003319191-19"
+
+- year: 2021
+  type: article
+  authors: "Rieder, B., & Skop, Y."
+  title: "The fabrics of machine moderation: Studying the technical, normative, and organizational structure of Perspective API"
+  venue: "Big Data & Society, 8(2)"
+  url: "https://doi.org/10.1177/20539517211046181"
+- year: 2021
+  type: chapter
+  authors: "Sileno, G., Boer, A., Gordon, G., & Rieder, B."
+  title: "Like Circles in the Water: Responsibility as a System-Level Function"
+  venue: "In AI Approaches to the Complexity of Legal Systems XI–XII (pp. 198–211). Springer, LNCS 13048"
+  url: "https://doi.org/10.1007/978-3-030-89811-3_14"
+- year: 2021
+  type: other
+  authors: "Rieder, B., Sileno, G., & Gordon, G."
+  title: "Monopolization: Concentrated power and economic embeddings in ML & AI"
+  venue: "In A New AI Lexicon. AI Now Institute"
+  url: "https://medium.com/a-new-ai-lexicon/a-new-ai-lexicon-monopolization-c43f136981ab"
+- year: 2021
+  type: report
+  authors: "Graef, I., Jeon, D.-S., Rieder, B., van Hoboken, J., & Husovec, M."
+  title: "Work stream on differentiated treatment: Final report"
+  venue: "Expert Group for the EU Observatory on the Online Platform Economy. European Commission"
+  url: "https://research.tilburguniversity.edu/en/publications/work-stream-on-differentiated-treatment-final-report/"
+- year: 2021
+  type: report
+  authors: "Lehdonvirta, V., Rieder, B., Raguseo, E., Jeon, D.-S., Graef, I., & van Hoboken, J."
+  title: "Measurement & economic indicators: Final report"
+  venue: "Expert Group for the EU Observatory on the Online Platform Economy. European Commission"
+  url: "https://research.tilburguniversity.edu/en/publications/measurement-amp-economic-indicators-final-report/"
+
+- year: 2020
+  type: book
+  authors: "Rieder, B."
+  title: "Engines of Order: A Mechanology of Algorithmic Techniques"
+  venue: "Amsterdam University Press (Recursions series)"
+  url: "https://www.routledge.com/Engines-of-Order-A-Mechanology-of-Algorithmic-Techniques/Rieder/p/book/9781041178750"
+  pdf: "https://www.jstor.org/content/oa_book_monograph/j.ctv12sdvf1"
+- year: 2020
+  type: article
+  authors: "Rieder, B., & Hofmann, J."
+  title: "Towards platform observability"
+  venue: "Internet Policy Review, 9(4)"
+  url: "https://doi.org/10.14763/2020.4.1535"
+- year: 2020
+  type: article
+  authors: "Rieder, B., Coromina, Ò., & Matamoros-Fernández, A."
+  title: "Mapping YouTube: A quantitative exploration of a platformed media system"
+  venue: "First Monday, 25(8)"
+  url: "https://doi.org/10.5210/fm.v25i8.10667"
+- year: 2020
+  type: proceedings
+  authors: "Coromina, Ò., Matamoros-Fernández, A., & Rieder, B."
+  title: "Follow the Money: A large-scale investigation of monetization and optimization on YouTube"
+  venue: "AoIR Selected Papers of Internet Research"
+  url: "https://spir.aoir.org/ojs/index.php/spir/article/view/11194"
+- year: 2020
+  type: proceedings
+  authors: "Rieder, B., Gordon, G., & Sileno, G."
+  title: "Mapping value(s) in AI: The case of YouTube"
+  venue: "AoIR Selected Papers of Internet Research"
+  url: "https://spir.aoir.org/ojs/index.php/spir/article/view/11315"
+
+- year: 2019
+  type: article
+  authors: "van Dijck, J., & Rieder, B."
+  title: "The recursivity of internet governance research"
+  venue: "Internet Policy Review, 8(2)"
+  url: "https://doi.org/10.14763/2019.2.1418"
+- year: 2019
+  type: chapter
+  authors: "Rieder, B., & Röhle, T."
+  title: "Métodos digitais: dos desafios à Bildung"
+  venue: "In J. J. Omena (Ed.), Métodos Digitais: Teoria-Prática-Crítica. Portuguese translation of “Digital Methods: From Challenges to Bildung”"
+
+- year: 2018
+  type: article
+  authors: "Abdulla, R., Poell, T., Rieder, B., Woltering, R., & Zack, L."
+  title: "Facebook polls as proto-democratic instruments in the Egyptian revolution: The ‘We Are All Khaled Said’ Facebook page"
+  venue: "Global Media and Communication, 14(1), 141–160"
+  url: "https://doi.org/10.1177/1742766518760085"
+- year: 2018
+  type: article
+  authors: "Gerlitz, C., & Rieder, B."
+  title: "Tweets Are Not Created Equal: Investigating Twitter's client ecosystem"
+  venue: "International Journal of Communication, 12, 528–547"
+  url: "http://ijoc.org/index.php/ijoc/article/view/5974"
+- year: 2018
+  type: article
+  authors: "Rieder, B., Matamoros-Fernández, A., & Coromina, Ò."
+  title: "From ranking algorithms to ‘ranking cultures’: Investigating the modulation of visibility in YouTube search results"
+  venue: "Convergence, 24(1), 50–68"
+  url: "https://doi.org/10.1177/1354856517736982"
+- year: 2018
+  type: article
+  authors: "Rieder, B."
+  title: "Examinando uma técnica algorítmica: o classificador de Bayes como uma leitura interessada da realidade"
+  venue: "Parágrafo, 6(1), 123–142. Portuguese translation of “Scrutinizing an algorithmic technique”"
+  url: "https://revistaseletronicas.fiamfaam.br/index.php/recicofi/article/view/726"
+- year: 2018
+  type: chapter
+  authors: "Rieder, B."
+  title: "Digital citizenship"
+  venue: "In R. Braidotti & M. Hlavajova (Eds.), Posthuman Glossary (pp. 101–104). Bloomsbury"
+
+- year: 2017
+  type: article
+  authors: "Rieder, B."
+  title: "Beyond Surveillance: How Do Markets and Algorithms ‘Think’?"
+  venue: "Le foucaldien, 3(1)"
+  url: "https://doi.org/10.16995/lefou.30"
+- year: 2017
+  type: article
+  authors: "Rieder, B."
+  title: "Scrutinizing an algorithmic technique: The Bayes classifier as interested reading of reality"
+  venue: "Information, Communication & Society, 20(1), 100–117"
+  url: "https://doi.org/10.1080/1369118X.2016.1181195"
+- year: 2017
+  type: chapter
+  authors: "Rieder, B., & Röhle, T."
+  title: "Digital Methods: From Challenges to Bildung"
+  venue: "In M. T. Schäfer & K. van Es (Eds.), The Datafied Society (pp. 109–124). Amsterdam University Press"
+  url: "https://www.jstor.org/stable/j.ctt1v2xsqn.12"
+
+- year: 2016
+  type: article
+  authors: "Poell, T., Abdulla, R., Rieder, B., Woltering, R., & Zack, L."
+  title: "Protest leadership in the age of social media"
+  venue: "Information, Communication & Society, 19(7), 994–1014"
+  url: "https://doi.org/10.1080/1369118X.2015.1088049"
+- year: 2016
+  type: article
+  authors: "Rieder, B."
+  title: "Big Data and the Paradox of Diversity"
+  venue: "Digital Culture & Society, 2(2), 39–54"
+  url: "https://doi.org/10.14361/dcs-2016-0204"
+
+- year: 2015
+  type: article
+  authors: "Rieder, B., Abdulla, R., Poell, T., Woltering, R., & Zack, L."
+  title: "Data critique and analytical opportunities for very large Facebook Pages: Lessons learned from exploring “We are all Khaled Said”"
+  venue: "Big Data & Society, 2(2)"
+  url: "https://doi.org/10.1177/2053951715614980"
+- year: 2015
+  type: article
+  authors: "Sire, G., & Rieder, B."
+  title: "Dans les ramures de l’arbre hypertexte: Analyse des incitations générées par l’opacité du moteur Google"
+  venue: "French Journal for Media Research, 3"
+  url: "http://frenchjournalformediaresearch.com/lodel/index.php?id=468"
+- year: 2015
+  type: article
+  authors: "Woltering, R., Abdulla, R., Poell, T., Rieder, B., & Zack, L."
+  title: "A Page and Its Politics: Situating Kullinā Khālid Saʿīd in Egypt’s Ideological Landscape at the Time of Revolution"
+  venue: "Cyber Orient, 9(2)"
+  url: "http://www.cyberorient.net/article.do?articleId=9694"
+
+- year: 2014
+  type: article
+  authors: "Borra, E., & Rieder, B."
+  title: "Programmed Method: Developing a Toolset for Capturing and Analyzing Tweets"
+  venue: "Aslib Journal of Information Management, 66(3), 262–278"
+  url: "https://doi.org/10.1108/AJIM-09-2013-0094"
+- year: 2014
+  type: article
+  authors: "Rieder, B., & Sire, G."
+  title: "Conflicts of Interest and Incentives to Bias: A Microeconomic Critique of Google’s Tangled Position on the Web"
+  venue: "New Media & Society, 16(2), 195–211"
+  url: "https://doi.org/10.1177/1461444813481195"
+- year: 2014
+  type: chapter
+  authors: "Gerlitz, C., & Rieder, B."
+  title: "Data-Mining von einem Prozent Twitter – Sammlungen, Basislinien, Stichproben"
+  venue: "In R. Reichert (Ed.), Big Data (pp. 203–220). Transcript"
+- year: 2014
+  type: other
+  authors: "Sánchez Querubín, N., Venturini, T., Meunier, A., Munk, A. K., Borra, E. K., Rieder, B., Mauri, M., Azzi, M., Rogers, R. A., & Bounegru, L."
+  title: "Climaps: A Global Issue Atlas of Climate Change Adaptation"
+  venue: "Web publication"
+  url: "http://climaps.eu/"
+- year: 2014
+  type: other
+  authors: "Rieder, B."
+  title: "Review of L. Manovich (2013), Software Takes Command"
+  venue: "Information, Communication & Society, 17(9), 1164–1167"
+  url: "https://doi.org/10.1080/1369118X.2014.913650"
+- year: 2014
+  type: proceedings
+  authors: "Gerlitz, C., & Rieder, B."
+  title: "Techniques of intersection: Metrics as connectors and separators in Twitter research"
+  venue: "AoIR Selected Papers of Internet Research"
+  url: "https://spir.aoir.org/ojs/index.php/spir/article/view/8890"
+
+- year: 2013
+  type: article
+  authors: "Gerlitz, C., & Rieder, B."
+  title: "Mining one percent of Twitter: Collections, baselines, sampling"
+  venue: "M/C Journal, 16(2)"
+  url: "http://journal.media-culture.org.au/index.php/mcjournal/article/viewArticle/620"
+- year: 2013
+  type: chapter
+  authors: "Rieder, B."
+  title: "81.498 words: The book as data object"
+  venue: "In J. Kircz & A. van der Weel (Eds.), The Unbound Book (pp. 57–70). Amsterdam University Press"
+  pdf: "http://thepoliticsofsystems.net/permafiles/rieder_unboundbook_2013.pdf"
+- year: 2013
+  type: proceedings
+  authors: "Rieder, B."
+  title: "Studying Facebook via data extraction: The Netvizz application"
+  venue: "Proceedings of the 5th Annual ACM Web Science Conference (WebSci ’13), 346–355. Best paper award"
+  url: "https://doi.org/10.1145/2464464.2464475"
+- year: 2013
+  type: article
+  authors: "Smyrnaios, N., & Rieder, B."
+  title: "Social infomediation of news on Twitter: A French case study"
+  venue: "NECSUS, 2(2), 359–382"
+  url: "https://doi.org/10.5117/NECSUS2013.2.SMYR"
+- year: 2013
+  type: chapter
+  authors: "Rieder, B."
+  title: "Le livre dans la base de données : une interrogation à propos de Google Books"
+  venue: "In B. Dufrêne, M. Ihadjadene & D. Bruckmann (Eds.), Numérisation du patrimoine (pp. 63–77). Hermann"
+
+- year: 2012
+  type: chapter
+  authors: "Rieder, B."
+  title: "Institutionalizing without institutions? Web 2.0 and the conundrum of democracy"
+  venue: "In F. Massit-Folléa, C. Méadel & L. Monnoyer-Smith (Eds.), Normative Experience in Internet Politics (pp. 157–186). Presses des Mines"
+- year: 2012
+  type: article
+  authors: "Rieder, B."
+  title: "The refraction chamber: Twitter as sphere and network"
+  venue: "First Monday, 17(11)"
+  url: "https://doi.org/10.5210/fm.v17i11.4199"
+- year: 2012
+  type: article
+  authors: "Rieder, B."
+  title: "What is in PageRank? A Historical and Conceptual Investigation of a Recursive Status Index"
+  venue: "Computational Culture, 2"
+  url: "http://computationalculture.net/article/what_is_in_pagerank"
+- year: 2012
+  type: chapter
+  authors: "Rieder, B."
+  title: "Zentralität und Sichtbarkeit: Mathematik als Hierarchisierungsinstrument am Beispiel der frühen Bibliometrie"
+  venue: "In T. Brandstetter, T. Hübel & A. Tantner (Eds.), Vor Google (pp. 223–252). Transcript"
+- year: 2012
+  type: chapter
+  authors: "Rieder, B., & Röhle, T."
+  title: "Digital methods: Five challenges"
+  venue: "In D. M. Berry (Ed.), Understanding Digital Humanities (pp. 67–84). Palgrave Macmillan"
+  url: "https://doi.org/10.1057/9780230371934_4"
+- year: 2012
+  type: article
+  authors: "Rieder, B., & Smyrnaios, N."
+  title: "Pluralisme et infomédiation sociale de l’actualité : le cas de Twitter"
+  venue: "Réseaux, 176, 105–139"
+  url: "https://doi.org/10.3917/res.176.0105"
+- year: 2012
+  type: preprint
+  authors: "Rieder, B."
+  title: "Probability at Work: Information Filtering as Technique"
+  venue: "SSRN working paper"
+  url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2517272"
+- year: 2012
+  type: proceedings
+  authors: "Rieder, B."
+  title: "The Politics of Formalization: What Social Computing Can Learn from the Prehistory of PageRank"
+  venue: "AISB/IACAP World Congress 2012"
+
+- year: 2011
+  type: chapter
+  authors: "Rieder, B."
+  title: "Démocratiser la recherche en ligne ? De la critique à une conception orientée société"
+  venue: "In L. Grivel (Ed.), La recherche d'information en contexte (pp. 253–276). Lavoisier"
+
+- year: 2010
+  type: article
+  authors: "Rieder, B."
+  title: "Pratiques informationnelles et analyse des traces numériques : de la représentation à l’intervention"
+  venue: "Études de communication, 35, 91–104"
+  url: "https://edc.revues.org/2249"
+- year: 2010
+  type: article
+  authors: "Rieder, B."
+  title: "De la communauté à l’écume : quels concepts de sociabilité pour le « web social » ?"
+  venue: "tic&société, 4(1)"
+  url: "http://ticetsociete.revues.org/822"
+
+- year: 2009
+  type: chapter
+  authors: "Rieder, B."
+  title: "Democratizing Search? From Critique to Society-oriented Design"
+  venue: "In K. Becker & F. Stalder (Eds.), Deep Search: The Politics of Search beyond Google (pp. 133–151). StudienVerlag / Transaction"
+  pdf: "http://archivesic.ccsd.cnrs.fr/sic_00428533/document"
+- year: 2009
+  type: chapter
+  authors: "Rieder, B."
+  title: "Demokratisierung der Suche? Von der Kritik zum gesellschaftlich orientierten Design"
+  venue: "In K. Becker & F. Stalder (Eds.), Deep Search: Politik des Suchens jenseits von Google. StudienVerlag"
+
+- year: 2008
+  type: proceedings
+  authors: "Rieder, B."
+  title: "Entre marché et communauté : une discussion de la culture participative à l’exemple de Google Maps"
+  venue: "Ludovia 2008: Do it yourself 2.0, Actes, 282–292"
+  pdf: "http://archivesic.ccsd.cnrs.fr/sic_00329899/document"
+- year: 2008
+  type: proceedings
+  authors: "Rieder, B."
+  title: "La question de la normativité des objets techniques comme passerelle entre ‘information’ et ‘communication’ en SIC"
+  venue: "Congrès annuel de la SFSIC (working paper)"
+  pdf: "http://archivesic.ccsd.cnrs.fr/sic_00351607/document"
+- year: 2008
+  type: chapter
+  authors: "Rieder, B., & Schäfer, M. T."
+  title: "Beyond Engineering: Software Design as Bridge over the Culture/Technology Dichotomy"
+  venue: "In P. E. Vermaas, P. Kroes, A. Light & S. A. Moore (Eds.), Philosophy and Design (pp. 159–174). Springer"
+  pdf: "http://thepoliticsofsystems.net/permafiles/Rieder_Schaefer_Beyond-Engineering.pdf"
+
+- year: 2007
+  type: proceedings
+  authors: "Rieder, B."
+  title: "Étudier les réseaux comme phénomènes hétérogènes : quelle place pour la ‘nouvelle science des réseaux’ en sciences humaines et sociales ?"
+  venue: "Journées d’étude « Dynamiques de réseaux », Université de Bordeaux (working paper)"
+  pdf: "http://archivesic.ccsd.cnrs.fr/sic_00379526/document"
+- year: 2007
+  type: book
+  authors: "Saleh, I., Ghedira, K., Belhassen, B., Bouhaï, N., & Rieder, B. (Eds.)"
+  title: "H2PTM’07: Collaborer, échanger, inventer : expériences de réseaux"
+  venue: "Hermès Lavoisier"
+- year: 2007
+  type: proceedings
+  authors: "Rieder, B."
+  title: "Teilhaben am Objekt: Adaptierbarkeit als Knotenpunkt von Kultur und Technik"
+  venue: "Proceedings, Kongress Kulturwissenschaftliche Technikforschung"
+
+- year: 2006
+  type: proceedings
+  authors: "Rieder, B."
+  title: "An Experimental Collaboration Tool for the Humanities: The Procspace System"
+  venue: "Proceedings of the 7th International Conference on the Design of Cooperative Systems (COOP ’06), 123–130"
+  pdf: "http://thepoliticsofsystems.net/permafiles/rieder_coop.pdf"
+- year: 2006
+  type: thesis
+  authors: "Rieder, B."
+  title: "Métatechnologies et délégation : pour un design orienté-société dans l’ère du Web 2.0"
+  venue: "PhD thesis, Université Paris 8 Vincennes–Saint-Denis"
+  url: "https://theses.hal.science/tel-00179980/"
+
+- year: 2005
+  type: article
+  authors: "Rieder, B."
+  title: "Networked Control: Search Engines and the Symmetry of Confidence"
+  venue: "International Review of Information Ethics, 3(1), 26–32"
+  pdf: "http://www.i-r-i-e.net/inhalt/003/003_rieder.pdf"
+- year: 2005
+  type: proceedings
+  authors: "Bouhaï, N., & Rieder, B."
+  title: "Towards New Practices of Education and E-learning on the Web"
+  venue: "Proceedings of ICHSL.5 – Human System Learning, Marrakech, 97–106"
+- year: 2005
+  type: proceedings
+  authors: "Rieder, B., & Thévenet, M."
+  title: "Sphère publique et espaces procéduraux"
+  venue: "Actes du colloque Enjeux et usages des TIC, Université Bordeaux 3, 139–148"
+  pdf: "http://archivesic.ccsd.cnrs.fr/sic_00310244/document"
+- year: 2005
+  type: proceedings
+  authors: "Bouhaï, N., & Rieder, B."
+  title: "A constructivist approach for training environments"
+  venue: "Proceedings of ED-MEDIA 2005, Montréal, 3795–3799"
+
+- year: 2004
+  type: article
+  authors: "Rieder, B."
+  title: "Algorithmische Mediatoren: Software-Agenten als Gegenstand der Medienwissenschaften"
+  venue: "Medienjournal, 28(1), 36–46"
+  pdf: "http://thepoliticsofsystems.net/permafiles/rieder_algorithmische_mediatoren_final.pdf"

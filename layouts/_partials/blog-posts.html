@@ -1,0 +1,19 @@
+{{- /* Latest posts from the WordPress blog, fetched at build time. Context: number of posts. */ -}}
+{{- $ok := false }}
+{{- with try (resources.GetRemote site.Params.blogFeed) }}
+  {{- with .Err }}{{ warnf "Blog feed unavailable: %s" . }}
+  {{- else with .Value }}
+    {{- $ok = true }}
+    {{- $rss := . | transform.Unmarshal }}
+<ul class="posts">
+    {{- range first $ $rss.channel.item }}
+  <li>
+    <time datetime="{{ time.Format "2006-01-02" .pubDate }}">{{ time.Format "January 2006" .pubDate }}</time>
+    <a href="{{ .link }}">{{ .title | htmlUnescape }}</a>
+    <p>{{ .description | plainify | htmlUnescape | replaceRE `\s*The post .*$` "" | truncate 200 }}</p>
+  </li>
+    {{- end }}
+</ul>
+  {{- end }}
+{{- end }}
+{{- if not $ok }}<p class="muted">Read the latest posts on <a href="{{ site.Params.blogURL }}">The Politics of Systems</a>.</p>{{ end }}

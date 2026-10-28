@@ -1,0 +1,43 @@
+{{ define "toc" }}
+  {{- range where hugo.Data.apps "hidden" "!=" true }}
+  <li><a href="#{{ .name | urlize }}">{{ .name }}</a></li>
+  {{- end }}
+{{ end }}
+
+{{ define "main" }}
+<article class="page">
+  <h1>{{ .Title }}</h1>
+  <div class="prose">{{ .Content }}</div>
+
+  {{- range $app := where hugo.Data.apps "hidden" "!=" true }}
+  {{- $icon := (resources.Get .icon).Resize "160x webp" }}
+  <section class="app-entry" id="{{ .name | urlize }}" style="--app-accent: {{ .accent | safeCSS }}">
+    <header>
+      <img src="{{ $icon.RelPermalink }}" width="64" height="64" alt="">
+      <div>
+        <h2><a href="{{ .url }}">{{ .name }}</a></h2>
+        <p class="app-tagline">{{ .tagline }}</p>
+      </div>
+    </header>
+    <p>{{ .description }}</p>
+    {{- with .screenshot }}
+    {{- $light := (resources.Get .).Resize "1400x webp q80" }}
+    <a class="app-shot" href="{{ $app.url }}">
+      <picture>
+        {{- with $app.screenshotDark }}{{ $dark := (resources.Get .).Resize "1400x webp q80" }}
+        <source srcset="{{ $dark.RelPermalink }}" media="(prefers-color-scheme: dark)">
+        {{- end }}
+        <img src="{{ $light.RelPermalink }}" width="{{ $light.Width }}" height="{{ $light.Height }}" alt="{{ $app.name }} screenshot" loading="lazy">
+      </picture>
+    </a>
+    {{- end }}
+    <p class="links">
+      <a href="{{ .url }}">Website</a>
+      {{- with .download }}<a href="{{ . }}">Download</a>{{ end }}
+      {{- with .source }}<a href="{{ . }}">Source code</a>{{ end }}
+    </p>
+    <p class="small">Free and open source · macOS 14 or later · Mac with Apple silicon</p>
+  </section>
+  {{- end }}
+</article>
+{{ end }}

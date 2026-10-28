@@ -28,6 +28,9 @@ disableKinds = ["taxonomy", "term", "RSS", "section"]
     name = "YouTube"
     url = "https://www.youtube.com/@BernhardRiederAmsterdam"
   [[params.links]]
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/bernhard-rieder-286b792/"
+  [[params.links]]
     name = "Digital Methods Initiative"
     url = "https://www.digitalmethods.net/"
   [[params.links]]

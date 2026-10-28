@@ -206,7 +206,7 @@ ul.archive { list-style: none; padding: 0; margin: 0; }
 .app-entry h2 { margin: 0; font-size: 18px; }
 .app-entry h2 a { color: var(--app-accent); text-decoration: none; }
 .app-tagline { margin: 0; color: var(--muted); }
-.app-shots { display: flex; gap: 12px; margin: 16px 0 4px; }
+.app-shots { display: flex; width: 200px; gap: 12px; margin: 16px 0 4px; }
 .app-shots a { flex: 1; display: block; cursor: zoom-in; }
 .app-shots img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 6px; }
 .app-shots + .small { margin: 0 0 10px; }

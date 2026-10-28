@@ -27,7 +27,7 @@
     {{- with .screenshot }}
     <div class="app-shots">
       {{- range slice (dict "mode" "light" "file" $app.screenshot) (dict "mode" "dark" "file" $app.screenshotDark) }}{{ with .file }}
-      {{- $img := resources.Get . }}{{ $small := $img.Resize "500x webp q80" }}{{ $large := $img.Resize "2000x webp q85" }}
+      {{- $img := resources.Get . }}{{ $small := $img.Resize "200x webp q80" }}{{ $large := $img.Resize "2000x webp q85" }}
       <a href="{{ $large.RelPermalink }}"><img src="{{ $small.RelPermalink }}" width="{{ $small.Width }}" height="{{ $small.Height }}" alt="{{ $app.name }} screenshot" loading="lazy"></a>
       {{- end }}{{ end }}
     </div>

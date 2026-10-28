@@ -95,6 +95,5 @@
 - group: Fun stuff
   tools:
     - name: Spotify Artist Network
-      status: legacy
-      description: Creates networks of related artists, based on data from Spotify.
-      launch: https://labs.polsys.net/playground/spotify/
+      status: archived
+      description: Created networks of related artists, based on data from Spotify.

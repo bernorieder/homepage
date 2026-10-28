@@ -1,0 +1,5 @@
+# labs.polsys.net: send the front page (the old software list) to the software page;
+# the hosted tools, such as /tools/rankflow/, keep working.
+# Put these lines at the top of the .htaccess in the labs.polsys.net web directory on DreamHost.
+RewriteEngine On
+RewriteRule ^(index\.html?)?$ https://rieder.polsys.net/software/ [R=301,L]

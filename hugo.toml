@@ -1,4 +1,4 @@
-baseURL = "https://polsys.net/"
+baseURL = "https://rieder.polsys.net/"
 locale = "en"
 title = "Bernhard Rieder"
 disableKinds = ["taxonomy", "term", "RSS", "section"]

@@ -1,4 +1,4 @@
-# polsys.net
+# rieder.polsys.net
 
 Personal academic home page of Bernhard Rieder, built with [Hugo](https://gohugo.io) and published on GitHub Pages.
 

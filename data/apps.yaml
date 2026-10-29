@@ -28,6 +28,3 @@
   url: https://machen.polsys.net
   download: https://github.com/bernorieder/machen/releases/latest
   source: https://github.com/bernorieder/machen
-  notice: >-
-    Google is still reviewing machen. Until it is approved, signing in shows a warning that Google
-    hasn't verified the app: click Advanced, then Go to machen, to continue.

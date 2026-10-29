@@ -386,11 +386,6 @@
   title: "Probability at Work: Information Filtering as Technique"
   venue: "SSRN working paper"
   url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2517272"
-- year: 2012
-  type: proceedings
-  authors: "Rieder, B."
-  title: "The Politics of Formalization: What Social Computing Can Learn from the Prehistory of PageRank"
-  venue: "AISB/IACAP World Congress 2012"
 
 - year: 2011
   type: chapter
@@ -453,11 +448,6 @@
   authors: "Saleh, I., Ghedira, K., Belhassen, B., Bouhaï, N., & Rieder, B. (Eds.)"
   title: "H2PTM’07: Collaborer, échanger, inventer : expériences de réseaux"
   venue: "Hermès Lavoisier"
-- year: 2007
-  type: proceedings
-  authors: "Rieder, B."
-  title: "Teilhaben am Objekt: Adaptierbarkeit als Knotenpunkt von Kultur und Technik"
-  venue: "Proceedings, Kongress Kulturwissenschaftliche Technikforschung"
 
 - year: 2006
   type: proceedings
@@ -480,20 +470,10 @@
   pdf: "http://www.i-r-i-e.net/inhalt/003/003_rieder.pdf"
 - year: 2005
   type: proceedings
-  authors: "Bouhaï, N., & Rieder, B."
-  title: "Towards New Practices of Education and E-learning on the Web"
-  venue: "Proceedings of ICHSL.5 – Human System Learning, Marrakech, 97–106"
-- year: 2005
-  type: proceedings
   authors: "Rieder, B., & Thévenet, M."
   title: "Sphère publique et espaces procéduraux"
   venue: "Actes du colloque Enjeux et usages des TIC, Université Bordeaux 3, 139–148"
   pdf: "http://archivesic.ccsd.cnrs.fr/sic_00310244/document"
-- year: 2005
-  type: proceedings
-  authors: "Bouhaï, N., & Rieder, B."
-  title: "A constructivist approach for training environments"
-  venue: "Proceedings of ED-MEDIA 2005, Montréal, 3795–3799"
 
 - year: 2004
   type: article
